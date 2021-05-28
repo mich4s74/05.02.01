@@ -41,12 +41,14 @@ h2 {
 p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
+  line-height: 1.5;
   box-sizing: border-box;
 }
 
 ul {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
+  line-height: 1.5;
   box-sizing: border-box;
   padding-left: 80px;
   padding-right: 80px;
