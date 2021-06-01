@@ -1,0 +1,14 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1920px) 1fr;
+}
+
+main > .container1 {
+  padding: 75px 0 75px 0;
+  grid-column: 1/4;
+}
