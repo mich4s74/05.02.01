@@ -10,6 +10,8 @@ body {
     height: auto;
 }
 
+
+
 /* img { 
     filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -68,46 +70,64 @@ height: 100%;
 padding: 50px;
   }
 
+
+
+
   /* third section */ 
 
 
 
-#third_section {
+.third_section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.third_section_wrapper {
-    display: flex;
-    position: relative;
-}
 
 .third_pic3, .third_pic2, .third_pic1 { 
-    display: flex;
+  background-size: cover;
+  height: 35vw;
 }
 
+
+.third_pic1 {
+  background-image: url("omospic.webp");
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.third_pic2 {
+  background-image: url("behandlingerpic.webp");
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.third_pic3 {
+  background-image: url("booktidpic.webp");
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
 .third_pic1 a {
-    position: absolute;
-    top: 20vw;
-  left: 12vw;
   color: white;
   font-family: 'Bebas Neue', cursive;
-  font-size: 3rem;   
+  font-size: 3rem; 
 }
 
 .third_pic2 a {
-    position: absolute;
-    top: 20vw;
-  left: 50vw;
   color: white;
   font-family: 'Bebas Neue', cursive;
   font-size: 3rem;
 }
 
 .third_pic3 a {
-    position: absolute;
-    top: 20vw;
-  left: 85vw;
   color: white;
   font-family: 'Bebas Neue', cursive;
   font-size: 3rem;
@@ -115,5 +135,9 @@ padding: 50px;
 
 a:hover {
     color: rgb(147, 156, 147);
+}
+
+a {
+  text-decoration: none;
 }
 
