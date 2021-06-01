@@ -1,0 +1,16 @@
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.om_os {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1920px) 1fr;
+}
+
+.second {
+  padding: 75px 0 75px 0;
+  grid-column: 1/4;
+}
