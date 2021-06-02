@@ -51,24 +51,33 @@ img:hover {
   #second_section { 
       display: grid;
       grid-template-columns: 1.2fr 1fr;
+      justify-content: center;
   }
 
   #second_section h4 {
     font-family: 'Roboto', sans-serif;
-      box-sizing: border-box;
+      font-size: 1rem;
+      line-height: 1.5;
   }
 
   #second_section h3 {
     font-family: 'Bebas Neue', cursive;
     box-sizing: border-box;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
 }
 
 
   #second_left { 
+/* display: grid;
+text-align: center; */
 height: 100%;
-padding: 50px;
-  }
+padding-left: 5vw;
+padding-right: 5vw;
+}
+
+
+
 
 
 
@@ -118,19 +127,19 @@ padding: 50px;
 .third_pic1 a {
   color: white;
   font-family: 'Bebas Neue', cursive;
-  font-size: 3rem; 
+  font-size: 2.5rem; 
 }
 
 .third_pic2 a {
   color: white;
   font-family: 'Bebas Neue', cursive;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .third_pic3 a {
   color: white;
   font-family: 'Bebas Neue', cursive;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 a:hover {
@@ -139,5 +148,36 @@ a:hover {
 
 a {
   text-decoration: none;
+}
+
+
+
+
+/* mediaqueries */
+
+@media (max-width: 1365px) {
+  #second_section { 
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#second_section .tekst_container {
+  padding: 10vw;
+  
+  text-align: center;
+}
+}
+
+@media (max-width: 500px) {
+
+  .third_section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.third_section_wrapper img {
+  height: 50vw;
+}
+
 }
 
