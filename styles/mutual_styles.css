@@ -36,6 +36,45 @@ button:hover {
 
 /* HEADER/NAV STYLES */
 
+.hidden {
+  /*    display: none;*/
+  /*    transform: scale(0);*/
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+#menuknap {
+  display: inline-block;
+  position: fixed;
+  color: #7d8d7b;
+  padding: 1rem;
+}
+
+#menuknap {
+  cursor: pointer;
+}
+
+#menu {
+  list-style-type: none;
+  transition: transform 0.3s;
+  transform-origin: top left;
+}
+
+@media only screen and (min-width: 600px) {
+  #menuknap {
+    display: none;
+  }
+
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  #menu li {
+    display: inline-block;
+  }
+}
+
 header {
   position: sticky;
   top: 0;
@@ -44,10 +83,15 @@ header {
   background-color: rgba(255, 255, 255, 0.575);
 }
 
+@media only screen and (max-width: 600px) {
+  header {
+    height: 0;
+  }
+}
+
 header .logo {
   width: 7%;
 }
-
 
 header nav ul {
   display: flex;
@@ -67,11 +111,17 @@ header nav ul {
 }
 
 @media (max-width: 600px) {
-  header nav ul {
-    flex-direction: column;
+  header {
+    height: 0;
   }
   header .logo {
     width: 25%;
+  }
+  button {
+    margin-bottom: 1rem;
+  }
+  #menu {
+    background-color: #fff;
   }
 }
 
