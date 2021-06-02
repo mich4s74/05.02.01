@@ -32,7 +32,7 @@ img:hover {
       background-image: url(test.webp);
       background-size: 100%;
       width: 100%;
-      height: 40vw;
+      height: 45vw;
   }
 
   #first_section p {
@@ -75,10 +75,6 @@ height: 100%;
 padding-left: 5vw;
 padding-right: 5vw;
 }
-
-
-
-
 
 
 
@@ -155,7 +151,29 @@ a {
 
 /* mediaqueries */
 
-@media (max-width: 1365px) {
+
+
+@media (max-width: 1383px) {
+  #second_section h4 {
+    font-family: 'Roboto', sans-serif;
+      font-size: 0.9rem;
+      line-height: 1.5;
+  }
+
+  #second_section h3 {
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+#second_section .tekst_container {
+  
+  text-align: center;
+}
+}
+
+
+@media (max-width: 1252px) {
   #second_section { 
     display: grid;
     grid-template-columns: 1fr;
@@ -163,10 +181,12 @@ a {
 
 #second_section .tekst_container {
   padding: 10vw;
-  
   text-align: center;
 }
+
 }
+
+
 
 @media (max-width: 500px) {
 
@@ -176,8 +196,21 @@ a {
 }
 
 .third_section_wrapper img {
-  height: 50vw;
+  height: 70vw;
+  background-size: cover;
 }
 
+#first_section {
+  background-size: 100%;
+      width: 100%;
+      height: 60vw;
+  }
+
+  #second_section .tekst_container {
+    background-color: #C9C9BD;
+    margin: 15px;
+  }
 }
+
+
 
