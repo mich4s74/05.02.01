@@ -48,9 +48,7 @@ button:hover {
   position: fixed;
   color: #7d8d7b;
   padding: 1rem;
-}
-
-#menuknap {
+  background-color: #fff;
   cursor: pointer;
 }
 
