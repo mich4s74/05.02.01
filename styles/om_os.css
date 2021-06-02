@@ -23,6 +23,12 @@ img {
   height: 40vw;
 }
 
+#banner > h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 20vw;
+}
+
 .first {
   padding-left: 10%;
 }
@@ -60,7 +66,6 @@ p {
   font-size: 1rem;
   line-height: 1.5;
   box-sizing: border-box;
-  font-size: 1rem;
 }
 
 ul {
