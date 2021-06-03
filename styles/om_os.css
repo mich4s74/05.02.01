@@ -116,6 +116,8 @@ ul {
   box-sizing: border-box;
 }
 
+
+
 @media (max-width: 1344px) {
 
   #om_os {
@@ -146,6 +148,14 @@ ul {
     text-align: center;
   }
 }
+
+  @media (min-width: 882px){
+    #om_os { 
+      padding-right: 10%;
+    }
+  }
+
+
 
   @media (max-width: 882px) {
 
