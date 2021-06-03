@@ -71,3 +71,24 @@ ul {
   line-height: 1.5;
   box-sizing: border-box;
 }
+
+
+/*footer edits*/
+
+footer h5 {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+footer p {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+footer h4 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
+  color: black;
+}
+
+/* footer slut */
