@@ -77,16 +77,6 @@ p {
   color: #000;
 }
 
-a {
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  color: #0c99ed;
-}
-
-a:hover {
-  color: #0cf78e;
-}
-
 /* HOMEPAGE STYLES - MOBILE - SMALLER THAN 600 PX */
 main {
   display: grid;
