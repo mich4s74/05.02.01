@@ -117,6 +117,25 @@ ul {
 }
 
 
+/* css til mød os video */
+
+#video_section {
+ justify-items: center;
+ text-align: center;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 10%;
+}
+
+.meet_us h4 {
+  font-size: 3rem;
+}
+
+
 
 @media (max-width: 1500px) {
 
