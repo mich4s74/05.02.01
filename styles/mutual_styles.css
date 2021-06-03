@@ -1,8 +1,6 @@
 body {
   padding: 0;
   box-sizing: border-box;
-  font-size: 1rem;
-  line-height: 1.5;
 }
 
 img {
@@ -189,6 +187,7 @@ footer {
 .pad_2rem {
   padding: 4rem;
 }
+<<<<<<< HEAD
 
 /* COLORS & FONTS */
 
@@ -231,3 +230,5 @@ p {
   line-height: 1.5;
   color: #000;
 }
+=======
+>>>>>>> 54e8ccfba650065faf39c86d5403e987ee1ba4ed
