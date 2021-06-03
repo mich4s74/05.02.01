@@ -77,6 +77,28 @@ p {
   color: #000;
 }
 
+/*footer edits*/
+
+footer h5 {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+
+footer p {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+footer h4 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
+  color: black;
+}
+
+
+
+
 /* HOMEPAGE STYLES - MOBILE - SMALLER THAN 600 PX */
 main {
   display: grid;
@@ -90,7 +112,7 @@ main > section {
 #first_section {
   display: grid;
   width: 100%;
-  height: 70vh;
+  height: 40vw;
   background-image: url(behandlingerpic.webp);
   background-size: cover;
   align-items: center;
