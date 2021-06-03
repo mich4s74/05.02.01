@@ -189,3 +189,45 @@ footer {
 .pad_2rem {
   padding: 4rem;
 }
+
+/* COLORS & FONTS */
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
+  color: #fff;
+  line-height: 1.125;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Bebas Neue", cursive;
+  line-height: 1.125;
+  color: #7d8d7b;
+}
+
+h2 {
+  font-size: 3.9rem;
+  margin-bottom: 4rem;
+}
+
+h3 {
+  font-size: 3.1rem;
+  color: #7d8d7b;
+  margin: 3rem 0;
+}
+
+h4 {
+  font-size: 2.6rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #000;
+}
