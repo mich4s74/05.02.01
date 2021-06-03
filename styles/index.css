@@ -23,6 +23,7 @@ video {
   object-fit: cover;
   width: 100%;
   height: auto;
+  filter: grayscale(1);
 }
 
 #first_section .section_wrapper {
@@ -87,7 +88,10 @@ video {
 
 .third_pic3, .third_pic2, .third_pic1 { 
   background-size: cover;
-  height: 35vw;
+  height: auto;
+  width: 100%;
+  aspect-ratio: 1/1;
+  /* height: 35vw; */
 }
 
 
@@ -204,9 +208,9 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .third_section_wrapper img {
-    width: 50px;
-    height: 50px;
-    background-size: cover;
+  .third_pic3, .third_pic2, .third_pic1 { 
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1/1;
   }
 } 
