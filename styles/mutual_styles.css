@@ -176,6 +176,10 @@ footer {
   }
 }
 
+footer {
+  width: 100% !important;
+}
+
 .black {
   color: #000;
 }
