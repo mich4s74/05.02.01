@@ -126,11 +126,6 @@ main > section {
   }
 }
 
-footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
 /* Span columns */
 .col_1-2 {
   grid-column: 1 / 2;
