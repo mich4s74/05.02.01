@@ -118,7 +118,7 @@ ul {
 
 
 
-@media (max-width: 1344px) {
+@media (max-width: 1500px) {
 
   #om_os {
   display: grid;
@@ -151,7 +151,8 @@ ul {
 
   @media (min-width: 882px){
     #om_os { 
-      padding-right: 10%;
+      padding-right: 5%;
+      padding-left: 5%;
     }
   }
 
