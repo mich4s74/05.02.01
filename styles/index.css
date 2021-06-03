@@ -53,13 +53,13 @@ video {
   }
 
   #second_section h4 {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-size: 1rem;
     line-height: 1.5;
   }
 
   #second_section h3 {
-    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Bebas Neue', cursive; */
     box-sizing: border-box;
     font-size: 1.3rem;
     line-height: 1.5;
